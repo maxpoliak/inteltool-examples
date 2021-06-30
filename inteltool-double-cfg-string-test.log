@@ -1,0 +1,25 @@
+CPU: ID 0x506e3, Processor Type 0x0, Family 0x6, Model 0x5e, Stepping 0x3
+Northbridge: 8086:191f (6th generation (Skylake-S family) Core Processor (Desktop))
+Southbridge: 8086:a143 (H110)
+IGD: 8086:1912 (unknown)
+Trying to reveal Primary to Sideband Bridge (P2SB),
+let's hope the OS doesn't mind... done.
+SBREG_BAR = 0xfd000000 (MEM)
+
+Hiding Primary to Sideband Bridge (P2SB).
+
+============= GPIOS =============
+
+------- GPIO Community 0 -------
+
+PCR Port ID: 0xaf0000
+
+------- GPIO Group GPP_A -------
+0x0400: 0x0000301984000402                              
+0x0408: 0x0000000000000000 GPP_A0   LAD0                
+0x0410: 0x0000301b84000402                              
+0x0418: 0x0000000000000000 GPP_A1   LAD2                
+0x0460: 0x0000002544000600                              
+0x0468: 0x0000000000000000 GPP_A13  SUSWARN#/SUSPWRDNACK
+
+=================================
